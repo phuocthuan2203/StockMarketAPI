@@ -1,0 +1,16 @@
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/ai-docs
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+**/*.md
+**/.env
+**/publish
