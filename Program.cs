@@ -3,11 +3,7 @@ using StockMarketAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.PropertyNamingPolicy = null;
-    });
+builder.Services.AddControllers();
 
 builder.Services.AddDbContext<StockDbContext>(options =>
 {
